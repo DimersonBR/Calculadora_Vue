@@ -1,0 +1,64 @@
+/*###
+Paleta Vintage:
+
+Base....: Marrom (#800000)
+Teclas..: Bege (#F5F5DC)
+Destaque: Laranja (#FF8000)
+*/
+
+.linha {
+    display: flex;
+}
+
+.calculadora {
+    background-color: #800000;
+    width: 155px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #f5d5a6;
+}
+
+.operador {
+    background-color: #e1d1f1;
+}
+
+button:hover{
+    background-color: #FF8000;
+}
+
+.operador:hover {
+    background-color: #695e7b;
+    color: whitesmoke;
+}
+
+.igual {
+    background-color: #f18730c8;
+    color: whitesmoke;
+}
+
+.igual:hover {
+    background-color: #ec11119e;
+}
+
+.display {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 35px;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+button:active {
+    transform: translateY(5px);
+}
